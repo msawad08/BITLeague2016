@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_about"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_fixtures"
+            android:icon="@drawable/ic_matches"
+            android:title="Fixtures &amp; Results" />
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_icon_news"
+            android:title="News" />
+        <item
+            android:id="@+id/nav_points"
+            android:icon="@drawable/ic_standings"
+            android:title="Points Table" />
+        <item
+            android:id="@+id/nav_stats"
+            android:icon="@drawable/ic_stats"
+            android:title="Stats" />
+    </group>
+
+    <item android:title="Teams">
+        <menu>
+            <item
+                android:id="@+id/nav_team1"
+                android:title="ALPHA SC" />
+            <item
+                android:id="@+id/nav_team2"
+                android:title="CAVALIERS FC" />
+            <item
+                android:id="@+id/nav_team3"
+                android:title="INVADERS FC" />
+            <item
+                android:id="@+id/nav_team4"
+                android:title="LEGEND KILLERS FC" />
+            <item
+                android:id="@+id/nav_team5"
+                android:title="ROYAL SHOOTERS" />
+        </menu>
+    </item>
+
+</menu>

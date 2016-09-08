@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:stretchColumns="0,1"
+    android:layout_margin="8dp"
+    android:background="@android:color/transparent">
+<TableRow
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="2dp"
+    android:background="@android:color/white">
+    <TextView
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:id="@+id/name"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:text="Team"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:id="@+id/team_name"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:text="Goals"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:id="@+id/goals"/>
+</TableRow>
+</TableLayout>
